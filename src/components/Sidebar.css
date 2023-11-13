@@ -1,0 +1,53 @@
+button{
+    background: none;
+    border: none;
+    color: #78BE20;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.appSidebar{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid #0C2340;
+}
+
+.appSidebarHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.appSidebarNotes{
+    height: calc(100vh - 78px);
+    overflow-y: scroll;
+}
+
+.appSidebarNote{
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.sidebarNoteTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appSidebarNotes p{
+    margin: 10px 0;
+}
+
+.appSidebarNotes small{
+    color: #9EA2A2;
+}
+
+.appSidebarNote:hover{
+    background-color: #0C2340;
+}
+
+.appSidebarNote.active{
+    background-color: #0C2340;
+}
